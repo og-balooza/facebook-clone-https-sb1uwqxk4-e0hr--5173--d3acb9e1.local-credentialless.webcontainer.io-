@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --facebook-blue: #1877f2;
+}
+
+body {
+  @apply bg-gray-100;
+}
+
+.text-facebook {
+  color: var(--facebook-blue);
+}
